@@ -13,20 +13,22 @@
     padding-right: 16mm;
     padding-left: 16mm;
     background-color: rgb(14, 55, 78);
-    
     margin: 0px;
-    padding: 30px;
+    padding: 80px;
     border: 0px;
     font: inherit;
     vertical-align: baseline;
     color: white;
     
+    
 }
 
 
 h1{
-    font-size: larger;
     
+    font-size: 400%;
+    padding: 0%;
+    margin: 0%;
 
 }
 h2{
@@ -78,14 +80,12 @@ h2{
 }
 
   
-  /* Create two equal columns that floats next to each other */
   .column {
     float: left;
     width: 30%;
     padding-left: 5%;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
@@ -97,4 +97,53 @@ h2{
     column-gap: 2em;
     padding-left: 2%;
     font-weight: bolder;
+}
+
+.email_foot {
+    text-align: center;
+    color: rgba(14, 55, 78);
+    margin-top: 10em;
+
+}
+
+
+.facebook_icon {
+    position: inherit;
+    width: 20px;
+    margin: auto;
+    height: 20px;
+}
+.instagram_icon {
+    position: inherit;
+    width: 20px;
+    margin: auto;
+    height: 20px;
+}
+
+.twitter_icon {
+    position: inherit;
+    width: 20px;
+    margin: auto;
+    height: 20px;
+}
+
+.linkedin_icon {
+    position: inherit;
+    width: 20px;
+    margin: auto;
+    height: 20px;
+}
+
+.phone_icon {
+    position: inherit;
+    width: 20px;
+    margin: auto;
+    height: 20px;
+}
+
+.mail_icon {
+    position: inherit;
+    width: 20px;
+    margin: auto;
+    height: 15px;
 }
